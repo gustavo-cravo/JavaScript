@@ -1,0 +1,15 @@
+body{
+    font-size: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+#idade{
+    max-width: 4rem;
+    margin-bottom: 1rem;
+}
+
+#confirmar{
+    max-width: 4rem;
+}

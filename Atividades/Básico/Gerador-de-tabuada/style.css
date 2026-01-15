@@ -1,0 +1,14 @@
+body{
+      font-family: "Open Sans", sans-serif;
+      display: flex;
+      flex-direction: column;
+}
+
+#numero{
+    max-width: 4rem;
+    margin-bottom: 1rem;
+}
+
+#verificar{
+    max-width: 5rem;
+}

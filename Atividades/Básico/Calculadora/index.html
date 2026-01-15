@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simples</title>
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+            box-sizing: border-box;
+        }
+
+        #operacao{
+            margin: 1rem;
+        }
+
+        #calcular{
+            width: 5rem;
+            height: 2rem;
+            max-width: 5rem;
+            max-height: 2rem;
+        }
+
+        button{
+            border-radius: .5rem;
+            padding: .25rem;
+            border-style: none;
+            color: whitesmoke;
+            background-color: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculadora simples</h1>
+    
+    <div id="operacao">
+        <button id="adicao">+</button>
+        <button id="subtracao">-</button>
+        <button id="multiplicacao">X</button>
+        <button id="divisao">/</button>
+    </div>
+
+    <div id="numbers">
+        <input type="number" name="PrimeiroNumero" id="num1" style="border-radius: .5rem;" required>
+        <input type="number" name="SegundoNumero" id="num2" style="border-radius: .5rem;" required>
+    </div>
+
+    <section id="resposta"></section>
+
+    <script src="main.js"></script>
+</body>
+</html>
