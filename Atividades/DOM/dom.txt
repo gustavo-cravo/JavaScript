@@ -1,0 +1,55 @@
+Lista de Exercícios para Praticar DOM em JavaScript
+
+1. Básico querySelector, textContent, addEventListener
+   Crie um botão que, ao ser clicado, muda o texto de um parágrafo para "Clicou!"
+
+2. Básico querySelectorAll, classList, addEventListener
+   Crie 3 botões de cor (vermelho, azul, verde). Ao clicar em um, muda a cor de fundo de um quadrado
+
+3. Básico querySelector, addEventListener('input'), value
+   Ao digitar no input, mostre em tempo real o que está sendo digitado em um <span> abaixo
+
+4. Básico-Médio createElement, textContent, append, value
+   Crie um botão "Adicionar tarefa". Ao clicar, pega o valor do input e adiciona um novo <li> na lista
+
+5. Médio classList.toggle, addEventListener + delegação
+   Na lista do exercício anterior: clique em uma tarefa para marcá-la como concluída (adicionar classe)
+
+6. Médio createElement, append, remove(), delegação de eventos
+   Na mesma lista: adicione um botão "X" em cada tarefa. Ao clicar, remove a tarefa
+
+7. Médio textContent, parseInt, eventos click
+   Crie um contador simples: dois botões (+ e -) e um número no meio que aumenta/diminui
+
+8. Médio classList.add/remove, dataset, querySelectorAll, loop
+   Crie um sistema de abas (3 botões + 3 conteúdos). Clicar em uma aba mostra apenas seu conteúdo
+
+9. Médio-Difícil querySelectorAll, src, addEventListener + loop ou delegação
+   Crie uma galeria de imagens. Ao clicar em uma miniatura pequena, a imagem grande muda para ela
+
+10. Médio-Difícil querySelector, disabled, value.trim(), addEventListener('input')
+    Todo formulário de cadastro: nome, email, senha. Botão "Enviar" só fica habilitado quando todos os campos estiverem preenchidos
+
+11. Difícil Delegação, dataset, parentElement, querySelector dentro do evento
+    Crie uma lista de compras com quantidade. Cada item tem + e - para mudar quantidade e total atualiza automaticamente
+
+12. Difícil querySelectorAll, classList.add/remove('hidden'), includes()
+    Sistema de filtro de produtos: input de busca filtra cards em tempo real (nome do produto)
+
+13. Difícil createDocumentFragment, loop, append, performance
+    Crie 100 itens de uma lista usando DocumentFragment antes de adicionar tudo de uma vez na página
+
+14. Avançado Todos os conceitos anteriores + localStorage
+    Crie um "todo list" completo com: adicionar, marcar concluído, deletar, salvar no localStorage e carregar ao abrir a página
+
+15. Avançado dragstart, dragover, drop, append, dataset
+    Implemente drag & drop simples: reorganizar cards de tarefas arrastando e soltando
+
+Sugestão de ordem de prática:
+1-3 → básico de eventos e leitura/escrita
+4-6 → criação + remoção + interação com lista
+7-8 → controle de estado simples
+9-10 → interações mais reais com usuário
+11-13 → delegação + performance
+14 → projeto integrador básico
+15 → conceitos mais avançados

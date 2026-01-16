@@ -1,0 +1,17 @@
+.done{
+    background-color: #0cf504;
+    color: rgb(0, 97, 24);
+    height: 1.3rem;
+    max-width: 7rem;
+    list-style-type: none;
+    margin: .5rem;
+}
+
+.nodone{
+    background-color: #e90707;
+    color: rgb(250, 250, 250);
+    height: 1.3rem;
+    max-width: 7rem;
+    list-style-type: none;
+    margin: .5rem;
+}
