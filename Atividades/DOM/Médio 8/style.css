@@ -1,0 +1,17 @@
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #333;
+  color: white;
+}
