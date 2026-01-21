@@ -1,0 +1,30 @@
+ body {
+      font-family: system-ui, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 1.1rem;
+      margin: 0 12px 30px 0;
+      cursor: pointer;
+    }
+    #lista {
+      list-style: none;
+      padding: 0;
+    }
+    .item {
+      padding: 12px 16px;
+      border-bottom: 1px solid #eee;
+      background: #fafafa;
+      transition: background 0.12s;
+    }
+    .item:hover {
+      background: #f0f4f8;
+    }
+    .stats {
+      margin: 20px 0;
+      color: #555;
+      font-size: 0.95rem;
+    }
