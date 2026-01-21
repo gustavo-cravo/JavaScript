@@ -1,0 +1,133 @@
+
+ROADMAP COMPLETO – DOM EM JAVASCRIPT
+
+FASE 1 – FUNDAMENTOS DO DOM
+
+1. Selecionar elementos
+- getElementById
+- getElementsByClassName
+- querySelector / querySelectorAll
+
+Prática: selecionar elementos e entender NodeList vs HTMLCollection
+
+2. Ler e alterar conteúdo
+- textContent
+- innerText
+- innerHTML
+
+Prática: alterar textos e inserir HTML dinamicamente
+
+3. Manipular atributos
+- getAttribute / setAttribute / removeAttribute
+- dataset
+
+Prática: abas (tabs) e galeria de imagens
+
+4. Classes e estilos
+- classList.add / remove / toggle
+- style
+
+Prática: dark mode e estados visuais
+
+FASE 2 – EVENTOS
+
+5. Eventos básicos
+- addEventListener
+- click, input, change, submit
+
+Prática: botões e formulários
+
+6. Objeto event
+- event.target
+- event.preventDefault
+- event.key
+
+Prática: validação e atalhos de teclado
+
+7. Propagação de eventos
+- bubbling
+- capturing
+- stopPropagation
+
+Prática: modal com clique fora para fechar
+
+FASE 3 – DOM DINÂMICO
+
+8. Criar e remover elementos
+- createElement
+- append / prepend
+- remove
+
+Prática: lista de tarefas, comentários dinâmicos
+
+9. Delegação de eventos
+- event.target
+- closest
+
+Prática: lista dinâmica com editar/remover
+Carrinho de compras
+
+10. Percorrer o DOM
+- parentElement
+- children
+- nextElementSibling
+- previousElementSibling
+
+Prática: accordion e menus
+
+FASE 4 – ESTADO E PERFORMANCE
+
+11. Estado no DOM
+- sincronização entre dados e interface
+
+Prática: contadores e totais
+
+12. localStorage
+- setItem / getItem
+- JSON.parse / JSON.stringify
+
+Prática: salvar tarefas e preferências
+
+13. Performance
+- evitar múltiplos listeners
+- DocumentFragment
+- Reflow / Repaint
+
+Prática: renderização de listas grandes
+
+FASE 5 – DOM AVANÇADO
+
+14. Formulários avançados
+- validação customizada
+- Mensagens dinâmicas
+
+Prática: cadastro completo, feedback em tempo real
+
+15. Componentização sem framework
+- funções que retornam DOM
+- Reutilização
+
+Prática: cards e modais reutilizáveis
+
+16. SPA sem framework
+- troca de conteúdo no DOM
+- history.pushState
+
+Prática: Home / Sobre / Contato
+
+17. Drag and Drop
+- dragstart
+- dragover
+- drop
+
+Prática: reordenar lista
+
+PROJETO FINAL
+- Dashboard completo usando apenas DOM e JavaScript utilizando:
+
+ - Lista Dinâmica
+ - Filtro
+ - Modal
+ - Formulários
+ - Estado salvo
+ - Sem framework

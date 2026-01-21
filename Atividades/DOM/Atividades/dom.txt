@@ -39,17 +39,9 @@ Lista de Exercícios para Praticar DOM em JavaScript
 13. Difícil createDocumentFragment, loop, append, performance
     Crie 100 itens de uma lista usando DocumentFragment antes de adicionar tudo de uma vez na página
 
-14. Avançado Todos os conceitos anteriores + localStorage
-    Crie um "todo list" completo com: adicionar, marcar concluído, deletar, salvar no localStorage e carregar ao abrir a página
-
-15. Avançado dragstart, dragover, drop, append, dataset
-    Implemente drag & drop simples: reorganizar cards de tarefas arrastando e soltando
-
 Sugestão de ordem de prática:
 1-3 → básico de eventos e leitura/escrita
 4-6 → criação + remoção + interação com lista
 7-8 → controle de estado simples
 9-10 → interações mais reais com usuário
 11-13 → delegação + performance
-14 → projeto integrador básico
-15 → conceitos mais avançados

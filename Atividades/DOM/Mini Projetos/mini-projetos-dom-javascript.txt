@@ -1,0 +1,131 @@
+
+ROADMAP DOM EM JAVASCRIPT – MINI PROJETOS
+
+FASE 1 – FUNDAMENTOS DO DOM
+
+1. Selecionar elementos
+Mini projeto: Painel de Destaques
+
+- Selecionar título, parágrafo e botão
+- Botão altera texto do parágrafo
+- Mudar cor do título
+
+2. Conteúdo dos elementos
+Mini projeto: Editor de Texto Simples
+
+- Input + botão
+- Texto digitado aparece em um parágrafo
+- Botão limpar apaga o texto
+
+3. Atributos
+Mini projeto: Galeria de Imagens
+
+- Miniaturas com data-src
+- Clique troca imagem principal
+- Miniatura ativa recebe destaque
+
+4. Classes e estilos
+Mini projeto: Dark Mode
+
+- Botão alterna tema
+- Classe aplicada ao body
+- Ícone muda conforme tema
+
+FASE 2 – EVENTOS
+
+5. Eventos básicos
+Mini projeto: Contador
+
+- Botões + e -
+- Valor atualizado em tempo real
+- Não permitir número negativo
+
+6. Objeto event
+Mini projeto: Validação de Input
+
+- Input obrigatório
+- Exibir erro se vazio
+- Impedir envio do formulário
+
+7. Propagação de eventos
+Mini projeto: Modal
+
+- Abrir modal
+- Fechar ao clicar fora
+- Não fechar ao clicar dentro
+
+FASE 3 – DOM DINÂMICO
+
+8. Criar e remover elementos
+Mini projeto: Lista de Tarefas
+
+- Criar itens dinamicamente
+- Remover tarefas
+- Marcar como concluída
+
+9. Delegação de eventos
+Mini projeto: Lista com Ações
+
+- Um listener no elemento pai
+- Botões editar e remover
+- Itens dinâmicos
+
+10. Percorrer o DOM
+Mini projeto: Accordion (FAQ)
+
+- Abrir resposta ao clicar
+- Apenas uma aberta por vez
+
+FASE 4 – ESTADO E PERFORMANCE
+
+11. Estado no DOM
+Mini projeto: Carrinho de Compras
+
+- Produtos com quantidade
+- Total automático
+- Estado separado do HTML
+
+12. localStorage
+Mini projeto: Lista Persistente
+
+- Salvar tarefas no navegador
+- Manter dados ao recarregar
+- Atualizar storage ao excluir
+
+13. Performance
+Mini projeto: Lista Grande
+
+- Renderizar muitos itens
+- Usar DocumentFragment
+- Comparar desempenho
+
+FASE 5 – DOM AVANÇADO
+
+14. Formulários avançados
+Mini projeto: Cadastro Completo
+
+- Validação em tempo real
+- Mensagens de erro
+- Botão só habilita quando válido
+
+15. Componentização
+Mini projeto: Card de Produto
+
+- Função retorna DOM
+- Reutilizar componente
+
+16. SPA sem framework
+Mini projeto: Site SPA
+
+- Navegação sem recarregar
+- Troca de conteúdo dinâmica
+- Histórico de navegação
+
+17. Drag and Drop
+Mini projeto: Reordenar Lista
+
+- Arrastar itens
+- Atualizar ordem visual
+
+PROJETO FINAL
+Dashboard completo usando apenas DOM e JavaScript
